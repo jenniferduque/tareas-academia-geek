@@ -1,14 +1,30 @@
+*{
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body{
+
+    font-family: Arial;
+}
+
+
 .main-content{
 display: flex;
 flex-wrap: wrap;
 width: 100%;
 }
 
-.pelicula{
+.container{
 display: flex;
 flex-direction: column;
-width: 20%;
 border: 1px solid black;
+margin: 40px;
+grid-auto-rows: auto;
+row-gap: 1em;
+column-gap: 1em;
+grid-template-columns: repeat(auto-fit);
 }
 
 

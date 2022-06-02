@@ -10,8 +10,7 @@ elementos dentro del DOM.*/
 
 const container = document.getElementById('main-content'); // Capturamos el elemento con el id container
 
-
-for (let i = 0; i < 12; i++) {
+for (let i = 0; i < 2; i++) {
 
 //imput entradas del usuario
 const imagenUrl = prompt("Por favor ingresa una URL con la imagen:"); // capturamos la imagen de 
