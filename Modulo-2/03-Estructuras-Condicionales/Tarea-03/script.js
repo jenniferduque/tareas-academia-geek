@@ -3,11 +3,27 @@
 // Si la clave es 01 el descuento es del 10% y si la clave es 02 el descuento es del 20%
 // (solo existen dos claves).
 
-//let producto;
-//let clave;
-//let precio;
-//et descuento;
-//console.log("escribe el nombre de productor");
+let producto = prompt("escribe el nombre de productor");
+let clave = parseInt(prompt("seleccionar clave del producto: 1 0 2"));
+let valor = parseInt(prompt("ingrese el valor del producto"));
+let descuento = 0;
+
+switch(clave){
+        case 1:
+            descuento = valor*0.1;
+            console.log("el producto $", producto, "tiene un valor de:", valor ,"pero con la clave", clave , "a precio de:", valor-descuento);
+        break;
+
+        case 2:
+            descuento = valor*0.2;
+             console.log("el producto $", producto, "tiene un valor de:", valor ,"pero con la clave", clave , "a precio de:", valor-descuento);
+        break;
+
+        default :
+          console.log("ingrese clave correcta");
+        break;  
+
+}
 
 
 

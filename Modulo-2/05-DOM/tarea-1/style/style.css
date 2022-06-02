@@ -1,0 +1,19 @@
+main-content{
+    height: 1613px;
+    width: 418px;
+    left: 40px;
+    top: 40px;
+    border-radius: 0px;
+
+    
+    }
+    
+    .pelicula{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 1px solid black;
+    }
+    
+   
+    

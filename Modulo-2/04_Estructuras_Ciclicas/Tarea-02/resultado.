@@ -1,0 +1,22 @@
+let numero = 0;
+let baja = 0;
+let media =0;
+
+for (let i = 1; i <=4; i++){
+     numero = prompt("escriba la calificacion");
+
+    if(i == 1){
+        baja = numero;
+        
+    }else{
+         if(numero<baja){
+             baja = numero;
+         }
+
+    }
+    media = media + parseInt(numero);
+    console.log(media);
+
+}
+
+alert("la calificacionmas baja fue de:" + baja + "yproedio del grupo fue:");
